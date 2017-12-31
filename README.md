@@ -12,7 +12,7 @@ Compatible Operating Systems:
 
 ## Files 
 1. [grillyourwifi.py](https://github.com/taintedsec/GrillYourWifi/blob/master/GrillYourWifi/grillyourwifi.py)      
--  745e37095110c2089913c6acb469c052e5b31816
+--  745e37095110c2089913c6acb469c052e5b31816
 2. [instructions.txt](https://github.com/taintedsec/GrillYourWifi/blob/master/GrillYourWifi/instructions.txt) - Sha1sum 
 ## Description
 
