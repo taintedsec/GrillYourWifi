@@ -7,8 +7,13 @@ Built With:
 
 Compatible Operating Systems:
 > [Kali Linux i686](https://offensive-security.com)
+
 > [Ubuntu Linux 16.04 LTS](https://ubuntu.com)
 
+## Files 
+1. [grillyourwifi.py](https://github.com/taintedsec/GrillYourWifi/blob/master/GrillYourWifi/grillyourwifi.py)      
+-  745e37095110c2089913c6acb469c052e5b31816
+2. [instructions.txt](https://github.com/taintedsec/GrillYourWifi/blob/master/GrillYourWifi/instructions.txt) - Sha1sum 
 ## Description
 
 The **GrillYourWifi** network deauthentication tool is a script that allows mass *Denial of Service* attacks on remote Access Points with beacon requests that are in range of the host network interface card that is actively configured for *monitor mode*
