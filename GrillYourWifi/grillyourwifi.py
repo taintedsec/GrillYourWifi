@@ -70,7 +70,7 @@ def prepare_grill():
 				subprocess.call(['ifconfig', nic, 'down'])
 				try:
 					print '[+] Spoofing MAC address from \033[0;33m%s\033[0;m to \033[0;33m%s\033[0;m' % (current_mac, bssid)
-					subprocess.call(['macchanger', '-m', bssid], stdout=subprocess.PIPE)
+					os.system('macchanger -m %s %s > /dev/null' % (bssid, nic))
 					subprocess.call(['ifconfig', nic, 'up'])
 				except Exception:
 					print '\033[0;31m[-] Error: Could not change MAC address. Check permissions\033[0;m'
@@ -84,8 +84,8 @@ def prepare_grill():
 					elif current_mac == permanent_mac:
 						print '\033[0;31m[-] MAC address is equal to burned in! Exitting to protect your identity...\033[0;m'
 						sys.exit(1)
-			subprocess.call(['rm', 'target.txt', 'target_vectors.txt', 'grilledwifi-0*'])
-			subprocess.call(['touch', 'target.txt', 'target_vectors.txt'])
+			subprocess.call(['rm', 'targets.txt', 'target_vectors.txt', 'grilledwifi-0*'])
+			subprocess.call(['touch', 'targets.txt', 'target_vectors.txt'])
 			print '\n[+] GrillYourWifi - Access Point Network Deauthentication Attack Tool'
 
 		except KeyboardInterrupt:
