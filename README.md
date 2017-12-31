@@ -12,8 +12,12 @@ Compatible Operating Systems:
 
 ## Files 
 1. [grillyourwifi.py](https://github.com/taintedsec/GrillYourWifi/blob/master/GrillYourWifi/grillyourwifi.py)      
-    - 745e37095110c2089913c6acb469c052e5b31816
+    - Sha1sum - 745e37095110c2089913c6acb469c052e5b31816
 2. [instructions.txt](https://github.com/taintedsec/GrillYourWifi/blob/master/GrillYourWifi/instructions.txt) - Sha1sum 
+    - Sha1sum - 7e8afb1bdf02d36d121b212b732c91fc164025ed
+3. [requirements.txt](https://github.com/taintedsec/GrillYourWifi/blob/master/GrillYourWifi/requirements.txt)
+    - Sha1sum - c54f7d39454565ca0f509221108a2c8dea15e0ab
+    
 ## Description
 
 The **GrillYourWifi** network deauthentication tool is a script that allows mass *Denial of Service* attacks on remote Access Points with beacon requests that are in range of the host network interface card that is actively configured for *monitor mode*
