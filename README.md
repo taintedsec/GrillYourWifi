@@ -37,6 +37,15 @@ _Requrirements_:
 - GNU Macchanger [https://directory.fsf.org/wiki/Macchanger](https://directory.fsf.org/wiki/Macchanger)
 - Pip - Python package installer [https://pip.pypa.io/en/stable/](https://pip.pypa.io/en/stable/)
 
+## Note
+
+Before proceeding to the _Installation_ section it is advised to do the following:
+_The following network interface card wlan0 will be used as an example for your interface_
+- Temporaily bring down the network interface card: `ifconfig wlan0 down`
+- Configure the network interface card for _monitor mode_: `iwconfig wlan0 mode monitor`
+- Change the Media Access Control address of your network interface card: `macchanger -r wlan0`
+- Save network iterface card state and bring it back up: `ifconfig wlan0 up`
+
 *_Installation_*:
 1. `pip install pandas` or `apt-get install python-pip`
 2. `cd /root/Documents/`
