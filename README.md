@@ -45,18 +45,18 @@ _The following network interface card wlan0 will be used as an example for your 
 - Temporarily bring down the network interface card: `ifconfig wlan0 down`
 - Configure the network interface card for _monitor mode_: `iwconfig wlan0 mode monitor`
 - Change the Media Access Control address of your network interface card: `macchanger -r wlan0`
-- Save network interface card state and bring it back up: `ifconfig wlan0 up`
+- Save the network interface card state and bring it back up: `ifconfig wlan0 up`
 
 *_Installation_*:
 1. `pip install pandas` or `apt-get install python-pip`
 2. `cd /root/Documents/`
 3. `git clone https://github.com/taintedsec/GrillYourWifi.git`
 4. `cd GrillYourWifi && cd GrillYourWifi`
-5. `touch targets.txt target_vector.txt`
+5. `touch targets.txt target_vectors.txt`
 6. `python2 grillyourwifi.py`
 
 ## Technical Details
 
 The python script `grillyourwifi.py` parses standard out from `airodump-ng [interface]`and sets the interval write-to limit to 1 second, and stores the BSSID column into a list object, which is iterated over until EOF. `grillyourwifi.py` proceeds to spoof the network interface card to the corresponding mac address of the target BSSID AP and injects 10 deauthentication(dissasociate) frames into the remote access point to disrupt the WPA 4-way handshake. For more technical details of the _WiFi Deauthentication Attack_ see also [https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack](https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack)
 
-Expect updates monthly - GrillYourWifi version 2.8 TaintedSec LLC 2017
+Expect updates monthly - GrillYourWifi version 2.8 TaintedSecurity LLC 2017
