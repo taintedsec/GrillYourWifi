@@ -32,6 +32,7 @@ This network attack tool can be used for _malicious use_, and *the developers of
 _Requrirements_:
 - Python2.7 [https://python.org](https://www.python.org)
 - Aircrack-ng [https://aircrack-ng.com](https://www.aircrack-ng.org)
+- GNU Macchanger [https://directory.fsf.org/wiki/Macchanger](https://directory.fsf.org/wiki/Macchanger)
 - Pip - Python package installer [https://pip.pypa.io/en/stable/](https://pip.pypa.io/en/stable/)
 
 *_Installation_*:
@@ -45,3 +46,5 @@ _Requrirements_:
 ## Technical Details
 
 The python script `grillyourwifi.py` parses standard out from `airodump-ng [interface]`and sets the interval write-to limit to 1 second, and stores the BSSID column into a list object, which is iterated over until EOF. `grillyourwifi.py` proceeds to spoof the network interface card to the corresponding mac address of the target BSSID AP and injects 10 deauthentication frames into the remote access point to disrupt the WPA 4-way handshake. For more technical details of the _WiFi Deauthentication Attack_ see also [https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack](https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack)
+
+Expect updates monthly - GrillYourWifi version 2.8 TaintedSec LLC 2017
