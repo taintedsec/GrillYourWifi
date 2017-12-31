@@ -1,0 +1,10 @@
+1. Requires Airodump-ng and GNU Macchanger
+2. Requires PIP and pandas for Python2.7
+3. Initial command 'airodump-ng -w demodump --output-format csv --write-interval 1 wlan0'
+4. Let the script run for about 15 seconds
+5. Use Pandas to sort the first column BSSID into a Python2.7 list object
+6. Sort through the list and remove words that contain no numerals
+7. Sort throught the list to remove duplicate BSSID's
+8. Use a forloop to iterate through each BSSID and spoof the corrective NIC to the BSSID
+   of the first iterable string object in list, check to see if the iterable object has the
+   same MAC address as the default NIC, if not throw an error, and continue
