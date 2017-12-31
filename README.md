@@ -11,7 +11,7 @@ Compatible Operating Systems:
 
 > [Ubuntu Linux 16.04 LTS](https://ubuntu.com)
 
-> [General Linux distrobutions](https://distrowatch.com/)
+> [General Linux Distrobutions](https://distrowatch.com/)
 
 ## Files 
 1. [grillyourwifi.py](https://github.com/taintedsec/GrillYourWifi/blob/master/GrillYourWifi/grillyourwifi.py)      
