@@ -11,6 +11,8 @@ Compatible Operating Systems:
 
 > [Ubuntu Linux 16.04 LTS](https://ubuntu.com)
 
+> [General Linux distrobutions](https://distrowatch.com/)
+
 ## Files 
 1. [grillyourwifi.py](https://github.com/taintedsec/GrillYourWifi/blob/master/GrillYourWifi/grillyourwifi.py)      
     - Sha1sum - 745e37095110c2089913c6acb469c052e5b31816
