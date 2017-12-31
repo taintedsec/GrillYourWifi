@@ -3,6 +3,7 @@
 
 Built With:
 > [Python2.7](https://www.python.org)
+
 > [Aircrack-ng](https://www.aircrack-ng.org)
 
 Compatible Operating Systems:
@@ -13,7 +14,7 @@ Compatible Operating Systems:
 ## Files 
 1. [grillyourwifi.py](https://github.com/taintedsec/GrillYourWifi/blob/master/GrillYourWifi/grillyourwifi.py)      
     - Sha1sum - 745e37095110c2089913c6acb469c052e5b31816
-2. [instructions.txt](https://github.com/taintedsec/GrillYourWifi/blob/master/GrillYourWifi/instructions.txt) - Sha1sum 
+2. [instructions.txt](https://github.com/taintedsec/GrillYourWifi/blob/master/GrillYourWifi/instructions.txt) 
     - Sha1sum - 7e8afb1bdf02d36d121b212b732c91fc164025ed
 3. [requirements.txt](https://github.com/taintedsec/GrillYourWifi/blob/master/GrillYourWifi/requirements.txt)
     - Sha1sum - c54f7d39454565ca0f509221108a2c8dea15e0ab
